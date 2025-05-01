@@ -1,0 +1,9 @@
+@echo off
+echo 📦 Installing dependencies...
+call npm install
+
+echo 🔨 Building the widget...
+call npm run build
+
+echo 🚀 Starting demo server...
+call npm run serve-demo 
